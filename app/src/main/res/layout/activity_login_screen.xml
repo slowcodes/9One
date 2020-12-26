@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".LoginScreen">
+    tools:context=".activities.LoginScreen">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -13,8 +13,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
             android:layout_marginTop="24dp"
@@ -26,7 +27,6 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="44dp"
                 android:src="@drawable/logo" />
-
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -52,6 +52,7 @@
                 android:textColor="#A7A4A4"
                 />
 
+
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/email_til"
                 android:layout_width="match_parent"
@@ -67,7 +68,7 @@
                     android:drawablePadding="16dp"
                     android:fontFamily="@font/calibri"
                     android:hint="Email"
-                    android:text="admin@gmail.com"
+                    android:text="bello"
                     android:inputType="textEmailAddress"
                     android:textSize="16sp" />
             </android.support.design.widget.TextInputLayout>
@@ -88,12 +89,25 @@
                     android:drawablePadding="16dp"
                     android:fontFamily="@font/calibri"
                     android:hint="Password"
-                    android:text="shashank"
+                    android:text="reward11"
                     android:inputType="textPassword"
                     android:maxLines="1"
-                    android:textSize="16sp" />
-            </android.support.design.widget.TextInputLayout>
+                    android:textSize="16sp"
 
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+            <TextView
+
+                android:id="@+id/wronglogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:text="wrong email or password, please try again!"
+                android:fontFamily="@font/calibri"
+                android:textColor="@color/red"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:visibility="invisible"/>
             <TextView
                 android:id="@+id/forgot_password"
                 android:layout_width="match_parent"
@@ -110,12 +124,12 @@
 
             <Button
                 android:id="@+id/sign_in"
-                android:layout_width="210dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="12dp"
-                android:background="@drawable/red_rounded_solid"
+                android:background="@drawable/green_rounded_solid"
                 android:fontFamily="@font/calibri"
                 android:text="Sign In"
                 android:textAllCaps="false"
@@ -124,6 +138,8 @@
                 android:textStyle="bold" />
 
             <LinearLayout
+                android:layout_alignParentBottom="true"
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
@@ -175,10 +191,11 @@
 
 
             </LinearLayout>
-
         </LinearLayout>
 
     </ScrollView>
+
+
 
 
 </RelativeLayout>
