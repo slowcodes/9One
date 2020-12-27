@@ -1,12 +1,13 @@
 package com.shashank.platform.classroomappui.activities;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
 import com.shashank.platform.classroomappui.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MyProfile extends AppCompatActivity {
 

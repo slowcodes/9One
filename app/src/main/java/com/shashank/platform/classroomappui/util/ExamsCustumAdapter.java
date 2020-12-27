@@ -1,10 +1,11 @@
 package com.shashank.platform.classroomappui.util;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.shashank.platform.classroomappui.R;
 import com.shashank.platform.classroomappui.models.Exam;
@@ -35,7 +36,7 @@ public class ExamsCustumAdapter extends  RecyclerView.Adapter<ExamsCustumAdapter
 
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent,
-                                                                    int viewType) {
+                                           int viewType) {
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.announcementcard, parent, false);
 

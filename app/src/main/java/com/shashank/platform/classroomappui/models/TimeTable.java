@@ -1,11 +1,6 @@
 package com.shashank.platform.classroomappui.models;
 
-import java.util.Date;
-
 public class TimeTable {
-
-
-
     private String title;
     private String code;
     private String time;

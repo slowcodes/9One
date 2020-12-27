@@ -22,7 +22,7 @@ public interface ApiInterface {
             contentType,
             authorization
     })
-    public  Call<NevsUser> login(@Field("username") String username ,@Field("password") String password );
+    public  Call<NevsUser> login(@Field("username") String username, @Field("password") String password);
 
     @FormUrlEncoded
     @POST("getexams")
@@ -30,7 +30,7 @@ public interface ApiInterface {
             contentType,
             authorization
     })
-    public  Call<List<Exam>> getExams(@Field("token") String token );
+    public  Call<List<Exam>> getExams(@Field("token") String token);
 
     @FormUrlEncoded
     @POST("getnews")
@@ -38,5 +38,5 @@ public interface ApiInterface {
             contentType,
             authorization
     })
-    public  Call<List<News>> getNews(@Field("token") String token );
+    public  Call<List<News>> getNews(@Field("token") String token);
 }

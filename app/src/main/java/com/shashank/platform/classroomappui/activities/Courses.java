@@ -1,9 +1,9 @@
-package com.shashank.platform.classroomappui.activities;
+package com.shashank.platform.classroomappui;
 
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
 
-import com.shashank.platform.classroomappui.R;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Courses extends AppCompatActivity {
 

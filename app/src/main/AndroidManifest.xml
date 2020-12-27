@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.shashank.platform.classroomappui">
-
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -12,56 +11,65 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".activities.Exams"></activity>
-        <activity
-            android:name=".activities.Settings"
+        <activity android:name=".Settings"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label=""
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".activities.Announcements"
+            android:name=".Announcements"
             android:configChanges="orientation|screenSize"
             android:label="Announcements" />
         <activity
-            android:name=".activities.Lectures"
+            android:name=".Lectures"
             android:configChanges="orientation|screenSize"
             android:label="Lectures" />
         <activity
-            android:name=".activities.Events"
+            android:name=".Events"
             android:configChanges="orientation|screenSize"
             android:label="Events" />
         <activity
-            android:name=".activities.Courses"
+            android:name=".Courses"
             android:configChanges="orientation|screenSize"
             android:label="Courses" />
         <activity
-            android:name=".activities.MyProfile"
+            android:name=".MyProfile"
             android:configChanges="orientation|screenSize"
-            android:label="My Profile"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="My Profile" />
         <activity
-            android:name=".activities.Home"
+            android:name=".Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.SignupScreen"
+            android:name=".SignupScreen"
             android:configChanges="orientation|screenSize"
             android:theme="@style/MyAppTheme" />
         <activity
-            android:name=".activities.LoginScreen"
+            android:name=".LoginScreen"
             android:configChanges="orientation|screenSize"
             android:theme="@style/MyAppTheme" />
+<!--        <activity-->
+<!--            android:name=".SplashScreen"-->
+<!--            android:configChanges="orientation|screenSize"-->
+<!--            android:theme="@style/Theme.AppCompat.NoActionBar">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
         <activity
-            android:name=".activities.SplashScreen"
-            android:configChanges="orientation|screenSize"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:name=".onboarding.SplashScreenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".onboarding.OnboardingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

@@ -1,7 +1,5 @@
 package com.shashank.platform.classroomappui.models;
 
-import java.util.Date;
-
 public class Fingerprint {
 
 
