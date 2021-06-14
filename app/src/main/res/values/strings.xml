@@ -25,8 +25,20 @@
     <string name="ob_desc2">If the person you’re calling also has Wonep the call will be entirely free</string>
     <string name="ob_desc3">We have a very small charge for non-Wonep calls to mobiles or landlines</string>
 
-    <string name="demo_content">Lorem ipsum dolor sit amet, consectetur\n adipiscing elit. Vivamus sodales faucibus\n dapibus. Etiam mattis leo quis laoreet dictum.</string>
-    <string name="demo_title">Lorem Ipsum</string>
+
+    <string name="title_1">WHAT IS NEVS?</string>
+    <string name="content_1">Nigeria Education Verification System\n is a unity platform for Nigeria Education governing\n bodies, Higher Institutions, Government Agencies</string>
+
+    <string name="title_2">Education Verification</string>
+    <string name="content_2">Powered by the Federal Ministry of Education,\n The NEVS plaform provides secure exchange,  and academic \n verification for higers institutions and third parties</string>
+
+    <string name="title_3">Student Identification</string>
+    <string name="content_3">Through our National Student Enrollment Programme,\n NEVS is currently been implemented as part of a National \n Education Policy to uniquely register and identify every Nigerian student.</string>
+
+    <string name="title_4">NEVS is Social</string>
+    <string name="content_4">NEVS is actively working with institutions,\n of higher learning across Nigeria to help students collaborate\n in learning and access quality resources.</string>
+
+
     <string name="next">Next</string>
     <string name="finish">Finish</string>
 </resources>
