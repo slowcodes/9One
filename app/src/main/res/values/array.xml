@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="religion">
+        <item>Christianity</item>
+        <item>African Traditional Religion</item>
+        <item>Islam</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="state_of_origin">
+        <item>Islam</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="local_govenment_area">
+        <item>Islam</item>
+    </string-array>
+
+    <string-array name="education_governing_body">
+        <item>NCCE - National Commission for Colleges of Education</item>
+        <item>NBTE - National Board for Technical Education</item>
+        <item>NUC - Nigerian Universities Commission</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>Private</item>
+        <item>State</item>
+        <item>Federal</item>
+    </string-array>
+
+    <string-array name="academic_session">
+        <item>2021/2022</item>
+        <item>2022/2023</item>
+    </string-array>
+
+    <string-array name="academic_level">
+        <item>NCE I</item>
+        <item>NCE II</item>
+    </string-array>
+
+</resources>
